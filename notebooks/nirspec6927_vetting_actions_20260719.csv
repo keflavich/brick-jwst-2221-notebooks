@@ -1,0 +1,22 @@
+ID,RA,Dec,action,reason
+16613,266.53035447,-28.75907612,exclude,DQ-saturated in F466N: unmeasurable in any band
+18486,266.55523998,-28.68703501,exclude,"no star in the aperture (cutout-verified); real star (satstar, m~13) is 0.28"" away -- CSV row is a phantom/offset entry"
+17455,266.5532853,-28.72691715,exclude,no clear star in aperture (cutout-verified): SW blend + LW bright-star wing
+18491,266.51928602,-28.6643222,exclude,position AND photometry both from corrupted clipped-daophot row (target = saturated star): cut per PI decision 2026-07-19
+18366,266.54628805,-28.72196851,exclude,position AND photometry both from corrupted clipped-daophot row (target = saturated star): cut per PI decision 2026-07-19
+17354,266.54004843,-28.67209215,keep_fix_f200w,"target fine (cutout-verified), near satstar; CSV F200W clipped 6.4 mag -- replace that band from satstar photometry"
+7184,266.53886132,-28.69509411,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+15987,266.52720111,-28.66962714,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+18428,266.53618764,-28.76023686,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+18426,266.5292027,-28.75421291,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+17406,266.54907889,-28.695033,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+16427,266.52456259,-28.7480517,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+5484,266.53648497,-28.68694761,keep_check_f356w,real unsaturated source next to bright star; CSV F356W entry (13.3) may be the neighbor -- spot-check that band
+33,266.53397645,-28.68255322,fix_band_f200w,CSV F200W +3.0-3.3 off own abfix (cross-column glitch); rest consistent
+3853,266.53966692,-28.67691538,fix_band_f200w,CSV F200W +3.0-3.3 off own abfix (cross-column glitch); rest consistent
+9106,266.52895445,-28.7341374,fix_band_f200w,CSV F200W +3.0-3.3 off own abfix (cross-column glitch); rest consistent
+7047,266.55523994,-28.6834441,fix_band_f356w,CSV F356W +1.2 off abfix
+5534,266.53882039,-28.6823131,fix_band_f115w_f200w,CSV F115W/F200W +2.4/+2.5 off abfix
+16160,266.51849771,-28.70744624,keep_fix_f410m,"target fine, just faint (cutout-verified); CSV F410M=10.5 Vega is a 7-mag single-band chimera -- fix that entry"
+16190,266.51453525,-28.71122202,verify,CSV F405N zigzag 2.9; not auto-testable; verify
+14,266.53385608,-28.68065991,keep_fix_f200w,"REFERENCE star: position cutout-verified good (<0.02""); F115W alignment flux good (+0.3); CSV F200W is 4.0 mag too BRIGHT vs abfix (cross-column glitch, opposite sign of the 33/3853/9106 cases) -- fix that entry; earlier satstar position/mag flags were satstar-fit blend errors"
