@@ -20,14 +20,6 @@ ID,RA,Dec,action,reason
 5534,266.53882039,-28.6823131,fix_band_f115w_f200w,CSV F115W/F200W +2.4/+2.5 off abfix
 16160,266.51849771,-28.70744624,keep_fix_f410m,"target fine, just faint (cutout-verified); CSV F410M=10.5 Vega is a 7-mag single-band chimera -- fix that entry"
 16190,266.51453525,-28.71122202,verify,CSV F405N zigzag 2.9; not auto-testable; verify
-2072,266.5139439,-28.69088459,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-3853,266.53966692,-28.67691538,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-3861,266.5398515,-28.68070028,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-3956,266.54183952,-28.67971125,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-5487,266.53654115,-28.68688102,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-11342,266.52173768,-28.71781348,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-11346,266.52180592,-28.7177437,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-12050,266.53276752,-28.72866647,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
 12055,266.53289247,-28.72854124,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
 15999,266.5323074,-28.67134893,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
 16224,266.54405208,-28.67797095,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
