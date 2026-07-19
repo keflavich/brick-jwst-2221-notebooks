@@ -1,15 +1,37 @@
 ID,RA,Dec,action,reason
-16613,266.53035447,-28.75907612,exclude,"DQ-saturated in F466N (seed_kind=dqsat, 75 mas): unmeasurable in any band"
-18366,266.54628805,-28.72196851,replace_mags_satstar,"genuinely saturated (dqsat SW entries <0.25""); CSV mags clipped ~3 mag; F466N entry is charge-migration class (unsaturated, ~11.3-11.5, near onset -- verify exposure safety); keep with satstar photometry"
-18491,266.51928602,-28.6643222,replace_mags_satstar,"genuinely saturated (dqsat SW entries <0.25""); CSV mags clipped ~3 mag; F466N entry is charge-migration class (unsaturated, ~11.3-11.5, near onset -- verify exposure safety); keep with satstar photometry"
-17354,266.54004843,-28.67209215,replace_mags_satstar,"F200W satstar at 104 mas, CSV F200W clipped 6.4 mag; other bands honest; keep with satstar F200W"
-11346,266.52180592,-28.7177437,replace_mags_satstar,F356W/F444W satstar entries at 172 mas with CSV clipped >=2 mag; keep with satstar photometry in those bands
-14,266.53385608,-28.68065991,fix_ref_mags,REFERENCE: F115W verified good; F200W satstar (m=11.4) at 93 mas -- CSV F200W/F356W/F444W clipped; replace from satstar photometry
-33,266.53397645,-28.68255322,fix_band_f200w,CSV F200W entry +3.0-3.3 mag off own abfix value (cross-column glitch in CSV build); all other bands consistent <=0.3 mag; fix F200W only
-3853,266.53966692,-28.67691538,fix_band_f200w,CSV F200W entry +3.0-3.3 mag off own abfix value (cross-column glitch in CSV build); all other bands consistent <=0.3 mag; fix F200W only
-9106,266.52895445,-28.7341374,fix_band_f200w,CSV F200W entry +3.0-3.3 mag off own abfix value (cross-column glitch in CSV build); all other bands consistent <=0.3 mag; fix F200W only
-7047,266.55523994,-28.6834441,fix_band_f356w,CSV F356W +1.2 off abfix; rest consistent
-5534,266.53882039,-28.6823131,fix_band_f115w_f200w,CSV F115W/F200W +2.4/+2.5 off abfix; rest consistent
-16427,266.52456259,-28.7480517,remeasure_flagged,entire CSV row offset +1.8-2.9 vs abfix in EVERY band: row matched to wrong star or double-converted; re-derive from abfix/vetted
-16160,266.51849771,-28.70744624,remeasure_flagged,CSV F410M=10.5 Vega is a 7-mag single-band chimera (no such source at position; abfix lacks the band to auto-test); re-derive row
-16190,266.51453525,-28.71122202,remeasure_flagged,CSV F405N zigzag 2.9 mag vs neighbors; abfix lacks bands to auto-test; verify before use
+16613,266.53035447,-28.75907612,exclude,DQ-saturated in F466N: unmeasurable in any band
+18486,266.55523998,-28.68703501,exclude,"no star in the aperture (cutout-verified); real star (satstar, m~13) is 0.28"" away -- CSV row is a phantom/offset entry"
+17455,266.5532853,-28.72691715,exclude,no clear star in aperture (cutout-verified): SW blend + LW bright-star wing
+18491,266.51928602,-28.6643222,fix_position_and_mags_satstar,"target IS the saturated star; CSV position is the corrupted clipped-daophot centroid, 0.17-0.21"" from the true (satstar wing-fit) position -- half an MSA shutter. Use satstar position AND photometry. F466N charge-migration class ~11.3-11.5: verify exposure safety"
+18366,266.54628805,-28.72196851,fix_position_and_mags_satstar,"target IS the saturated star; CSV position is the corrupted clipped-daophot centroid, 0.17-0.21"" from the true (satstar wing-fit) position -- half an MSA shutter. Use satstar position AND photometry. F466N charge-migration class ~11.3-11.5: verify exposure safety"
+14,266.53385608,-28.68065991,fix_ref_pos_and_mags,"REFERENCE star: F115W flux good, but bright satstar position 0.16-0.19"" from CSV position -- VERIFY position before using as alignment star; replace F200W/F356W/F444W clipped mags from satstar photometry"
+17354,266.54004843,-28.67209215,keep_fix_f200w,"target fine (cutout-verified), near satstar; CSV F200W clipped 6.4 mag -- replace that band from satstar photometry"
+7184,266.53886132,-28.69509411,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+15987,266.52720111,-28.66962714,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+18428,266.53618764,-28.76023686,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+18426,266.5292027,-28.75421291,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+17406,266.54907889,-28.695033,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+16427,266.52456259,-28.7480517,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
+5484,266.53648497,-28.68694761,keep_check_f356w,real unsaturated source next to bright star; CSV F356W entry (13.3) may be the neighbor -- spot-check that band
+33,266.53397645,-28.68255322,fix_band_f200w,CSV F200W +3.0-3.3 off own abfix (cross-column glitch); rest consistent
+3853,266.53966692,-28.67691538,fix_band_f200w,CSV F200W +3.0-3.3 off own abfix (cross-column glitch); rest consistent
+9106,266.52895445,-28.7341374,fix_band_f200w,CSV F200W +3.0-3.3 off own abfix (cross-column glitch); rest consistent
+7047,266.55523994,-28.6834441,fix_band_f356w,CSV F356W +1.2 off abfix
+5534,266.53882039,-28.6823131,fix_band_f115w_f200w,CSV F115W/F200W +2.4/+2.5 off abfix
+16160,266.51849771,-28.70744624,keep_fix_f410m,"target fine, just faint (cutout-verified); CSV F410M=10.5 Vega is a 7-mag single-band chimera -- fix that entry"
+16190,266.51453525,-28.71122202,verify,CSV F405N zigzag 2.9; not auto-testable; verify
+2072,266.5139439,-28.69088459,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+3853,266.53966692,-28.67691538,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+3861,266.5398515,-28.68070028,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+3956,266.54183952,-28.67971125,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+5487,266.53654115,-28.68688102,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+11342,266.52173768,-28.71781348,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+11346,266.52180592,-28.7177437,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+12050,266.53276752,-28.72866647,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+12055,266.53289247,-28.72854124,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+15999,266.5323074,-28.67134893,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+16224,266.54405208,-28.67797095,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+16652,266.52305295,-28.72285979,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+16948,266.55576511,-28.74144248,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+17565,266.53337231,-28.67219598,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
+17569,266.52785872,-28.68114136,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"

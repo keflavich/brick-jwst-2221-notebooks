@@ -194,6 +194,22 @@ for i in range(len(targets)):
                 (warns if is_ref else issues).append(
                     f'T1:{b} CSV {cm:.1f} vs satstar {smag:.1f} (clipped-flux selection)')
 
+    # T9 position-offset candidate: a bright (m<15) satstar 0.10-0.35 arcsec
+    # from the CSV position. If the TARGET IS that star (CSV photometry not
+    # abfix-consistent-faint), the CSV position is the corrupted clipped-daophot
+    # centroid and the shutter would be misplaced by ~an MSA shutter width;
+    # if the target is a separate faint source, this is a wing-contamination
+    # neighbor. Flagged for cutout review either way.
+    for b in sat:
+        ss = float(np.asarray(sat_idx[b][1].arcsec).flat[i])
+        if 0.10 < ss < 0.35:
+            si = int(np.asarray(sat_idx[b][0]).flat[i])
+            smag_ = float(sat[b][1][si])
+            if np.isfinite(smag_) and smag_ < 15:
+                warns.append(f'T9:{b} bright satstar at {ss*1000:.0f} mas '
+                             f'(m={smag_:.1f}): position-offset or wing neighbor; review cutout')
+                break
+
     # T8 F466N saturation: a target saturated even in F466N cannot be measured
     # in any NIRCam band (user criterion: F466N-unsaturated satstars are OK)
     if 'f466n' in sat:
