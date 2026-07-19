@@ -1,0 +1,53 @@
+ID,RA,Dec,action,reason
+10108,266.52063905,-28.7535099,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+10420,266.52916343,-28.75426677,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+16566,266.52810319,-28.75537791,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+17692,266.53232691,-28.75468872,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+17966,266.5423195,-28.76037074,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+18426,266.5292027,-28.75421291,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+18428,266.53618764,-28.76023686,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+18432,266.52751735,-28.75879738,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+18439,266.54373888,-28.75917218,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+18445,266.54701618,-28.75902126,exclude,crossband-m7-merge-only source; no counterpart in released m8_dedup within 0.3 arcsec (chance-alignment cross-band seed class)
+15999,266.5323074,-28.67134893,exclude,saturated star misselected via clipped flux; saturated in F466N too (unusable)
+16652,266.52305295,-28.72285979,exclude,saturated star misselected via clipped flux; saturated in F466N too (unusable)
+18366,266.54628805,-28.72196851,exclude,saturated star misselected via clipped flux; saturated in F466N too (unusable)
+18491,266.51928602,-28.6643222,exclude,saturated star misselected via clipped flux; saturated in F466N too (unusable)
+17354,266.54004843,-28.67209215,exclude,saturated star misselected via clipped flux; F466N within ~1 mag of saturation onset
+18179,266.54018753,-28.7409988,exclude,saturated star misselected via clipped flux; F466N within ~1 mag of saturation onset
+8203,266.51858379,-28.73212347,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+16427,266.52456259,-28.7480517,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+12538,266.5370627,-28.73626648,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+18447,266.55023298,-28.75709874,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+16060,266.5304906,-28.68587386,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+5484,266.53648497,-28.68694761,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+5487,266.53654115,-28.68688102,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+11346,266.52180592,-28.7177437,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+16948,266.55576511,-28.74144248,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+17531,266.54147558,-28.69531826,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+17737,266.53017179,-28.72928324,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+18174,266.54588359,-28.73704782,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+18486,266.55523998,-28.68703501,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+1343,266.53353747,-28.67929313,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+16224,266.54405208,-28.67797095,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+5525,266.53827739,-28.68322884,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+7047,266.55523994,-28.6834441,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+9109,266.52901393,-28.73359515,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+12024,266.5320304,-28.72882611,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+12055,266.53289247,-28.72854124,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+13583,266.53983184,-28.73826313,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+17569,266.52785872,-28.68114136,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+10,266.53442794,-28.66863802,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+3956,266.54183952,-28.67971125,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+16240,266.55170267,-28.67966143,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+4688,266.55179961,-28.67956478,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+5465,266.53510892,-28.68548829,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+7861,266.55169666,-28.70054685,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+17487,266.53586587,-28.67095409,replace_mags_satstar,clipped-saturation selection photometry (3-8 mag too faint); star unsaturated in F466N -> keep with consolidated-satstar photometry
+3832,266.53897652,-28.66798899,replace_mags_catalog,"selection mags >=2 mag off current m8_dedup photometry; real source, refresh mags"
+4190,266.54458524,-28.68058114,replace_mags_catalog,"selection mags >=2 mag off current m8_dedup photometry; real source, refresh mags"
+5534,266.53882039,-28.6823131,replace_mags_catalog,"selection mags >=2 mag off current m8_dedup photometry; real source, refresh mags"
+9106,266.52895445,-28.7341374,replace_mags_catalog,"selection mags >=2 mag off current m8_dedup photometry; real source, refresh mags"
+14,266.53385608,-28.68065991,fix_ref_mags,"REFERENCE star: F115W (alignment) OK, redder-band mags are clipped-saturation values; replace from satstar photometry"
+2072,266.5139439,-28.69088459,fix_ref_mags,"REFERENCE star: F115W (alignment) OK, redder-band mags are clipped-saturation values; replace from satstar photometry"
+2314,266.52533924,-28.69067409,fix_ref_mags,"REFERENCE star: F115W (alignment) OK, redder-band mags are clipped-saturation values; replace from satstar photometry"
