@@ -1,5 +1,4 @@
 ID,RA,Dec,action,reason
-16613,266.53035447,-28.75907612,exclude,DQ-saturated in F466N: unmeasurable in any band
 18486,266.55523998,-28.68703501,exclude,"no star in the aperture (cutout-verified); real star (satstar, m~13) is 0.28"" away -- CSV row is a phantom/offset entry"
 17455,266.5532853,-28.72691715,exclude,no clear star in aperture (cutout-verified): SW blend + LW bright-star wing
 18491,266.51928602,-28.6643222,exclude,position AND photometry both from corrupted clipped-daophot row (target = saturated star): cut per PI decision 2026-07-19
