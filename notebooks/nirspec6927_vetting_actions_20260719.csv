@@ -2,8 +2,8 @@ ID,RA,Dec,action,reason
 16613,266.53035447,-28.75907612,exclude,DQ-saturated in F466N: unmeasurable in any band
 18486,266.55523998,-28.68703501,exclude,"no star in the aperture (cutout-verified); real star (satstar, m~13) is 0.28"" away -- CSV row is a phantom/offset entry"
 17455,266.5532853,-28.72691715,exclude,no clear star in aperture (cutout-verified): SW blend + LW bright-star wing
-18491,266.51928602,-28.6643222,fix_position_and_mags_satstar,"target IS the saturated star; CSV position is the corrupted clipped-daophot centroid, 0.17-0.21"" from the true (satstar wing-fit) position -- half an MSA shutter. Use satstar position AND photometry. F466N charge-migration class ~11.3-11.5: verify exposure safety"
-18366,266.54628805,-28.72196851,fix_position_and_mags_satstar,"target IS the saturated star; CSV position is the corrupted clipped-daophot centroid, 0.17-0.21"" from the true (satstar wing-fit) position -- half an MSA shutter. Use satstar position AND photometry. F466N charge-migration class ~11.3-11.5: verify exposure safety"
+18491,266.51928602,-28.6643222,exclude,position AND photometry both from corrupted clipped-daophot row (target = saturated star): cut per PI decision 2026-07-19
+18366,266.54628805,-28.72196851,exclude,position AND photometry both from corrupted clipped-daophot row (target = saturated star): cut per PI decision 2026-07-19
 17354,266.54004843,-28.67209215,keep_fix_f200w,"target fine (cutout-verified), near satstar; CSV F200W clipped 6.4 mag -- replace that band from satstar photometry"
 7184,266.53886132,-28.69509411,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)
 15987,266.52720111,-28.66962714,keep_wing_caution,real faint source on/near a bright-star PSF wing (cutout-verified): expect contaminated spectrum; deprioritize if slots contested. 16427: additionally re-derive row mags (whole row offset ~+2.5 vs abfix)

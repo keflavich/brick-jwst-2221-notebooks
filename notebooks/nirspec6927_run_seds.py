@@ -411,7 +411,7 @@ def plot_source_sed(i):
             wi = np.array([v[0] for _, v in img_items])
             fi = np.array([v[1] for _, v in img_items])
             ax_sed.plot(wi, fi, '--', color='orange', lw=0.6, alpha=0.4, zorder=2)
-            ax_sed.errorbar(wi, fi, fmt='^', color='orange', ms=5, lw=1, zorder=3,
+            ax_sed.errorbar(wi, fi, fmt='D', color='orange', ms=5, lw=1, zorder=3,
                             label='image aperture (no ap-corr)')
             for w, f, lbl in zip(wi, fi, [k for k, _ in img_items]):
                 ax_sed.annotate(lbl.upper(), (w, f), textcoords='offset points',
