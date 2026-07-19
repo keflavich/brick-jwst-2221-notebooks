@@ -1,38 +1,15 @@
 ID,RA,Dec,action,reason
-15999,266.5323074,-28.67134893,exclude,saturated in F466N (satstar match): unmeasurable in any NIRCam band
-16613,266.53035447,-28.75907612,exclude,saturated in F466N (satstar match): unmeasurable in any NIRCam band
-16652,266.52305295,-28.72285979,exclude,saturated in F466N (satstar match): unmeasurable in any NIRCam band
-18366,266.54628805,-28.72196851,exclude,saturated in F466N (satstar match): unmeasurable in any NIRCam band
-18491,266.51928602,-28.6643222,exclude,saturated in F466N (satstar match): unmeasurable in any NIRCam band
-17354,266.54004843,-28.67209215,exclude,clipped-flux selection; F466N within ~1 mag of saturation onset (9.6/10.4)
-18179,266.54018753,-28.7409988,exclude,clipped-flux selection; F466N within ~1 mag of saturation onset (9.6/10.4)
-10,266.53442794,-28.66863802,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-1343,266.53353747,-28.67929313,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-5465,266.53510892,-28.68548829,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-5484,266.53648497,-28.68694761,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-5525,266.53827739,-28.68322884,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-7047,266.55523994,-28.6834441,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-7861,266.55169666,-28.70054685,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-11346,266.52180592,-28.7177437,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-12055,266.53289247,-28.72854124,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-16060,266.5304906,-28.68587386,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-16224,266.54405208,-28.67797095,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-16240,266.55170267,-28.67966143,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-16427,266.52456259,-28.7480517,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-16948,266.55576511,-28.74144248,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-17487,266.53586587,-28.67095409,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-17531,266.54147558,-28.69531826,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-17569,266.52785872,-28.68114136,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-17737,266.53017179,-28.72928324,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-18174,266.54588359,-28.73704782,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-18447,266.55023298,-28.75709874,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-18486,266.55523998,-28.68703501,replace_mags_satstar,clipped-saturation selection photometry (>=2 mag too faint after AB->Vega); F466N-unsaturated -> keep with consolidated-satstar photometry
-33,266.53397645,-28.68255322,remeasure_flagged,single-band chimera in selection row (one band 2.5-7 mag off both wavelength-neighbors after AB->Vega): re-derive photometry before use; NRS predictions from these rows untrustworthy
-3853,266.53966692,-28.67691538,remeasure_flagged,single-band chimera in selection row (one band 2.5-7 mag off both wavelength-neighbors after AB->Vega): re-derive photometry before use; NRS predictions from these rows untrustworthy
-9106,266.52895445,-28.7341374,remeasure_flagged,single-band chimera in selection row (one band 2.5-7 mag off both wavelength-neighbors after AB->Vega): re-derive photometry before use; NRS predictions from these rows untrustworthy
-16160,266.51849771,-28.70744624,remeasure_flagged,single-band chimera in selection row (one band 2.5-7 mag off both wavelength-neighbors after AB->Vega): re-derive photometry before use; NRS predictions from these rows untrustworthy
-16190,266.51453525,-28.71122202,remeasure_flagged,single-band chimera in selection row (one band 2.5-7 mag off both wavelength-neighbors after AB->Vega): re-derive photometry before use; NRS predictions from these rows untrustworthy
-3832,266.53897652,-28.66798899,replace_mags_catalog,"selection mags >=2 mag from current catalog (in-units); real source, refresh photometry"
-4190,266.54458524,-28.68058114,replace_mags_catalog,"selection mags >=2 mag from current catalog (in-units); real source, refresh photometry"
-5534,266.53882039,-28.6823131,replace_mags_catalog,"selection mags >=2 mag from current catalog (in-units); real source, refresh photometry"
-14,266.53385608,-28.68065991,fix_ref_mags,REFERENCE star: F115W (alignment) verified correct; F356W/F444W are clipped values (13.4/true 10.0) -> replace from satstar photometry
+16613,266.53035447,-28.75907612,exclude,"DQ-saturated in F466N (seed_kind=dqsat, 75 mas): unmeasurable in any band"
+18366,266.54628805,-28.72196851,replace_mags_satstar,"genuinely saturated (dqsat SW entries <0.25""); CSV mags clipped ~3 mag; F466N entry is charge-migration class (unsaturated, ~11.3-11.5, near onset -- verify exposure safety); keep with satstar photometry"
+18491,266.51928602,-28.6643222,replace_mags_satstar,"genuinely saturated (dqsat SW entries <0.25""); CSV mags clipped ~3 mag; F466N entry is charge-migration class (unsaturated, ~11.3-11.5, near onset -- verify exposure safety); keep with satstar photometry"
+17354,266.54004843,-28.67209215,replace_mags_satstar,"F200W satstar at 104 mas, CSV F200W clipped 6.4 mag; other bands honest; keep with satstar F200W"
+11346,266.52180592,-28.7177437,replace_mags_satstar,F356W/F444W satstar entries at 172 mas with CSV clipped >=2 mag; keep with satstar photometry in those bands
+14,266.53385608,-28.68065991,fix_ref_mags,REFERENCE: F115W verified good; F200W satstar (m=11.4) at 93 mas -- CSV F200W/F356W/F444W clipped; replace from satstar photometry
+33,266.53397645,-28.68255322,fix_band_f200w,CSV F200W entry +3.0-3.3 mag off own abfix value (cross-column glitch in CSV build); all other bands consistent <=0.3 mag; fix F200W only
+3853,266.53966692,-28.67691538,fix_band_f200w,CSV F200W entry +3.0-3.3 mag off own abfix value (cross-column glitch in CSV build); all other bands consistent <=0.3 mag; fix F200W only
+9106,266.52895445,-28.7341374,fix_band_f200w,CSV F200W entry +3.0-3.3 mag off own abfix value (cross-column glitch in CSV build); all other bands consistent <=0.3 mag; fix F200W only
+7047,266.55523994,-28.6834441,fix_band_f356w,CSV F356W +1.2 off abfix; rest consistent
+5534,266.53882039,-28.6823131,fix_band_f115w_f200w,CSV F115W/F200W +2.4/+2.5 off abfix; rest consistent
+16427,266.52456259,-28.7480517,remeasure_flagged,entire CSV row offset +1.8-2.9 vs abfix in EVERY band: row matched to wrong star or double-converted; re-derive from abfix/vetted
+16160,266.51849771,-28.70744624,remeasure_flagged,CSV F410M=10.5 Vega is a 7-mag single-band chimera (no such source at position; abfix lacks the band to auto-test); re-derive row
+16190,266.51453525,-28.71122202,remeasure_flagged,CSV F405N zigzag 2.9 mag vs neighbors; abfix lacks bands to auto-test; verify before use
