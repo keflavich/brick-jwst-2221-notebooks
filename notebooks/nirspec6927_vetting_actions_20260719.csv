@@ -19,11 +19,4 @@ ID,RA,Dec,action,reason
 5534,266.53882039,-28.6823131,fix_band_f115w_f200w,CSV F115W/F200W +2.4/+2.5 off abfix
 16160,266.51849771,-28.70744624,keep_fix_f410m,"target fine, just faint (cutout-verified); CSV F410M=10.5 Vega is a 7-mag single-band chimera -- fix that entry"
 16190,266.51453525,-28.71122202,verify,CSV F405N zigzag 2.9; not auto-testable; verify
-12055,266.53289247,-28.72854124,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-15999,266.5323074,-28.67134893,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-16224,266.54405208,-28.67797095,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-16652,266.52305295,-28.72285979,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-16948,266.55576511,-28.74144248,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-17565,266.53337231,-28.67219598,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
-17569,266.52785872,-28.68114136,review_cutout_T9,"bright satstar 0.10-0.35"" from CSV position: either position-offset (if target IS the star) or wing neighbor (if target is the faint source) -- needs the by-eye cutout check"
 14,266.53385608,-28.68065991,keep_fix_f200w,"REFERENCE star: position cutout-verified good (<0.02""); F115W alignment flux good (+0.3); CSV F200W is 4.0 mag too BRIGHT vs abfix (cross-column glitch, opposite sign of the 33/3853/9106 cases) -- fix that entry; earlier satstar position/mag flags were satstar-fit blend errors"
